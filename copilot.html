@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تجريبية بسيطة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>مرحباً بك في عالم الـ HTML</h1>
+        <p>هذه الفقرة مخصصة للمحتوى الأساسي للصفحة.</p>
+        <button id="actionBtn">اضغط هنا</button>
+    </div>
+    <script>
+        document.getElementById('actionBtn').addEventListener('click', () => {
+            alert('تم النقر على الزر!');
+        });
+    </script>
+</body>
+</html>
